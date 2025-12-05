@@ -10,7 +10,7 @@ serve: build
 
 ## Build site
 build: clean
-	@$(RUN) $(ZENSICAL) build
+	@$(RUN) $(ZENSICAL) build --clean
 
 ## Clean site
 clean:
