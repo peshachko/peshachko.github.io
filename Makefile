@@ -1,18 +1,20 @@
 include Makefile.inc
 
+ZENSICAL := zensical
+
 .PHONY: serve build deploy clean
 
 ## Serve site locally
 serve: build
-	@$(RUN) mkdocs serve --livereload -o
+	@$(RUN) $(ZENSICAL) serve
 
 ## Build site
 build: clean
-	@$(RUN) mkdocs build
+	@$(RUN) $(ZENSICAL) build
 
 ##! Deploy site
 deploy: clean
-	@${RUN} mkdocs gh-deploy
+	@${RUN} $(ZENSICAL) gh-deploy
 
 ## Clean site
 clean:
