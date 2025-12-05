@@ -2,7 +2,7 @@ include Makefile.inc
 
 ZENSICAL := zensical
 
-.PHONY: serve build deploy clean
+.PHONY: serve build clean
 
 ## Serve site locally
 serve: build
@@ -11,10 +11,6 @@ serve: build
 ## Build site
 build: clean
 	@$(RUN) $(ZENSICAL) build
-
-##! Deploy site
-deploy: clean
-	@${RUN} $(ZENSICAL) gh-deploy
 
 ## Clean site
 clean:
