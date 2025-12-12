@@ -5,6 +5,7 @@ site_author = "Димитър Димитров (drdv.github.io)"
 site_url = "https://peshachko.bg/"
 repo_url = "https://github.com/peshachko/peshachko.github.io"
 edit_uri = "edit/main/docs/"
+extra_css = ["stylesheets/extra.css"]
 
 copyright = """&copy; 2025 НПО Пешачко"""
 
@@ -19,13 +20,13 @@ nav = [
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
 [project.theme]
-#variant = "classic"
-#favicon = "images/favicon.png"
 language = "bg"
+favicon = "img/logo.png"
 logo = "img/logo.png"
+custom_dir = "docs/overrides"
 
 features = [
-    "announce.dismiss",
+    # "announce.dismiss",
 	"content.action.edit",
     "content.action.view",
     "content.code.annotate",
