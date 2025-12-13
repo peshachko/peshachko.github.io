@@ -1,0 +1,10 @@
+[data-md-component="announce"] .md-banner__inner {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+[data-md-component="announce"] .md-banner__inner .banner-custom img {
+    display: block;
+    width: 100%;
+}
