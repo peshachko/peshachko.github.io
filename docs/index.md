@@ -24,6 +24,10 @@ icon: lucide/footprints
 
 Всяка стъпка има значение ...
 
+<figure markdown="span">
+  ![Image title](img/peshachko.png){ width="600" }
+</figure>
+
 [НПО]: ngo.md
 [Нашият град]: environment.md
 [Събития]: events.md
