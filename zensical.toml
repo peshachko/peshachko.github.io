@@ -5,14 +5,18 @@ site_author = "Димитър Димитров (drdv.github.io)"
 site_url = "https://peshachko.bg/"
 repo_url = "https://github.com/peshachko/peshachko.github.io"
 edit_uri = "edit/main/docs/"
-extra_css = ["stylesheets/extra.css"]
-
 copyright = """&copy; 2025 НПО Пешачко"""
+extra_css = ["stylesheets/extra.css", "stylesheets/glightbox.min.css"]
 
 nav = [
   {"Начало" = "index.md"},
   {"НПО" = "ngo.md"},
-  {"Събития" = "events.md"},
+  {"Събития" = [
+    "events/events.md",
+	{"Минали" = [
+	  {"22 Септември 2025" = "events/20250922_event.md"},
+	  {"12 Август 2025" = "events/20250812_event.md"}]},
+	]},
   {"Нашият град" = "environment.md"}
 ]
 
@@ -36,14 +40,14 @@ features = [
     "content.tabs.link",
     "content.tooltips",
     "header.autohide",
-    # "navigation.expand",
+    "navigation.expand",
     "navigation.footer",
     "navigation.indexes",
     "navigation.instant",
     "navigation.instant.prefetch",
     "navigation.instant.progress",
-    "navigation.path",
-    #"navigation.prune",
+    # "navigation.path",
+    # "navigation.prune",
     "navigation.sections",
     "navigation.tabs",
     "navigation.tabs.sticky",
@@ -51,7 +55,7 @@ features = [
     "navigation.tracking",
     "search.highlight",
     # "toc.follow",
-    #"toc.integrate",
+    # "toc.integrate",
 ]
 
 [[project.theme.palette]]
@@ -64,9 +68,12 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
-#[project.theme.icon]
-#logo = "lucide/smile"
-#repo = "lucide/smile"
-
 [project.extra]
 generator = false
+
+[[project.extra_javascript]]
+path = "javascripts/glightbox.min.js"
+
+[[project.extra_javascript]]
+path = "javascripts/glightbox_load.js"
+type = "module"

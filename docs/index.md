@@ -15,7 +15,8 @@ icon: lucide/footprints
   подаваме документи за регистрация на неправителствена организация.
 - :fontawesome-solid-leaf: __[Нашият град]__ –
   Инициатива за чист въздух и здраве.
-- :lucide-users: __[Събития]__ – Предстои ...
+- :lucide-users: __[Събития]__ – Всяко събите е възможност за промяна -- а колко ни е
+  необходима тя!
 - :lucide-house: Семейството – Разходка заедно ...
 </div>
 
@@ -25,9 +26,9 @@ icon: lucide/footprints
 Всяка стъпка има значение ...
 
 <figure markdown="span">
-  ![Image title](img/peshachko.png){ width="600" }
+  ![Image title](img/peshachko.png){ width="500" }
 </figure>
 
 [НПО]: ngo.md
 [Нашият град]: environment.md
-[Събития]: events.md
+[Събития]: events/events.md
