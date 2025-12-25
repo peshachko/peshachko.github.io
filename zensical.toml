@@ -5,7 +5,7 @@ site_author = "Димитър Димитров (drdv.github.io)"
 site_url = "https://peshachko.bg/"
 repo_url = "https://github.com/peshachko/peshachko.github.io"
 edit_uri = "edit/main/docs/"
-copyright = """&copy; 2025 НПО Пешачко"""
+copyright = """&copy; 2025 НПО Пешачко (contact@peshachko.bg)"""
 extra_css = ["stylesheets/extra.css", "stylesheets/glightbox.min.css"]
 
 nav = [
