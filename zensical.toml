@@ -75,6 +75,14 @@ generator = false
 provider = "google"
 property = "G-MPZCVSVPZM"
 
+[[project.extra.social]]
+icon = "fontawesome/brands/facebook"
+link = "https://www.facebook.com/share/1ap91aSfj3"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/paper-plane"
+link = "mailto:contact@peshachko.bg"
+
 [[project.extra_javascript]]
 path = "javascripts/glightbox.min.js"
 
