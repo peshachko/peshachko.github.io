@@ -15,9 +15,29 @@ nav = [
     "events/events.md",
 	{"Минали" = [
 	  {"22 Септември 2025" = "events/20250922_event.md"},
-	  {"12 Август 2025" = "events/20250812_event.md"}]},
+	  {"12 Август 2025" = "events/20250812_event.md"}
 	]},
-  {"Нашият град" = "environment.md"}
+  ]},
+  {"Нашият град" = "environment.md"},
+  {"Стихове" = [
+    "poems/poems.md",
+	{"2025" = [
+	  {"Декември" = [
+	    {"Таня ван Дайк (25)" = "poems/20251225_tanya_vandijk.md"},
+	    {"Маринела (24)" = "poems/20251224_marinela.md"},
+	  ]},
+	  {"Септември" = [
+	    {"Таня ван Дайк (16)<sup>a</sup>" = "poems/20250916a_tanya_vandijk.md"},
+	    {"Таня ван Дайк (16)<sup>b</sup>" = "poems/20250916b_tanya_vandijk.md"},
+		{"Таня ван Дайк (12)" = "poems/20250912_tanya_vandijk.md"},
+		{"Таня ван Дайк (10)" = "poems/20250910_tanya_vandijk.md"},
+	    {"Таня ван Дайк (5)" = "poems/20250905_tanya_vandijk.md"},
+	  ]},
+	  {"Август" = [
+	    {"Маринела (24)" = "poems/20250824_marinela.md"},
+	  ]},
+    ]},
+  ]},
 ]
 
 # ----------------------------------------------------------------------------
@@ -31,7 +51,7 @@ custom_dir = "docs/overrides"
 
 features = [
     # "announce.dismiss",
-	"content.action.edit",
+	# "content.action.edit",
     "content.action.view",
     "content.code.annotate",
     "content.code.copy",
@@ -40,8 +60,8 @@ features = [
     "content.tabs.link",
     "content.tooltips",
     "header.autohide",
-    "navigation.expand",
-    "navigation.footer",
+    # "navigation.expand",
+    # "navigation.footer",
     "navigation.indexes",
     "navigation.instant",
     "navigation.instant.prefetch",
