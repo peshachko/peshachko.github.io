@@ -24,7 +24,8 @@
 
     text-shadow: 0 2px 8px rgba(0, 0, 0, 1);
 
-	font-size: clamp(1.5rem, 3vw, 3rem);
+	width: 90%;
+	font-size: 4vw;
 }
 
 [data-md-component="announce"] .md-banner__inner .banner-custom:hover .banner-text {
@@ -39,4 +40,10 @@
 
 .custom-icon-size {
   font-size: 1.2em;
+}
+
+.custom-button-join {
+	background-color: rgba(0, 105, 180, 0.4) !important;
+	border: 1.5px solid #ff69b4;
+	padding: 8px 14px !important;
 }
