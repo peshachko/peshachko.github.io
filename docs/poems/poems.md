@@ -1,8 +1,19 @@
 # Стихове по пътеките
 
-**Стихове и кратки разкази родени в движение.**
+Стихове и кратки разкази родени в движение. Включи се и ти, изпрати ни нещо което те
+мотивира на `contact@peshachko.bg`.
 
 <div class="grid cards" markdown>
+
+-   :fontawesome-solid-at: Антоанета Маринова  
+	:fontawesome-solid-calendar-check: 5 Януари 2026  
+	:fontawesome-regular-bookmark: **Пешачко**
+
+    ---
+
+	Здравейте!  
+	Пешачко аз се казвам  
+	и мисията ми е да опазвам - [:fontawesome-solid-angles-right:{.custom-icon-size}](20260105_antoaneta_marinova.md)
 
 -   :fontawesome-solid-at: Таня ван Дайк  
 	:fontawesome-solid-calendar-check: 25 Декември 2025  
