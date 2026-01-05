@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Пешачко
 
 Послание към децата

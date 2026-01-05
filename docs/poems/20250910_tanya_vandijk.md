@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Стъпка без сигнал
 
 !!! note "Таня ван Дайк (10 Септември 2025)"
