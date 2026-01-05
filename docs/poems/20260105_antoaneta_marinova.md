@@ -6,7 +6,11 @@ icon: fontawesome/solid/angle-right
 
 Послание към децата
 
-!!! note "Антоанета Маринова (5 Януари 2026)"
+!!! note inline "Антоанета Маринова (5 Януари 2026)"
+
+	<figure markdown="span">
+	  ![Image title](../img/peshachko.png){ width="300" }
+	</figure>
 
 Здравейте!  
 Пешачко аз се казвам  
