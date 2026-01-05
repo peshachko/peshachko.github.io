@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Морето не лъже
 
 !!! note "Таня ван Дайк (12 Септември 2025)"
