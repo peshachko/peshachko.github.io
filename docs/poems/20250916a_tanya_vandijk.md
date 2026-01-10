@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Аз и морето
 
 !!! note "Таня ван Дайк (16 Септември 2025)"

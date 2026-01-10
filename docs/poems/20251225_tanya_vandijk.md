@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Ходи пеша 
 
 !!! note "Таня ван Дайк (25 Декември 2025)"

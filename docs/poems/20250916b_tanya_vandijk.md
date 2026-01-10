@@ -1,7 +1,3 @@
----
-icon: fontawesome/solid/angle-right
----
-
 # Морето ме чака
 
 !!! note "Таня ван Дайк (16 Септември 2025)"
