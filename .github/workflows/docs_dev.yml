@@ -1,4 +1,4 @@
-name: Deploy Web Preview
+name: Dev website
 on:
   push:
     branches:
