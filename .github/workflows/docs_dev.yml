@@ -1,36 +1,49 @@
 name: Dev website
+
 on:
   push:
     branches:
       - 'dev-*'
 
-permissions:
-  contents: write
-
-env:
-  DEV_PAGES_BRANCH: gh-pages-dev
-
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+      - run: pip install zensical
+      - run: zensical build --clean
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-build
+          path: site/
+          retention-days: 1
 
-      - run: |
-          pip install zensical
-          zensical build --clean
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required for peaceiris push
 
-      - run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git branch -D $DEV_PAGES_BRANCH || true
-          git checkout --orphan $DEV_PAGES_BRANCH
-          git reset --hard
-          cp -r site/* .
-          git add .
-          git commit -m "Deploy web preview from ${{ github.ref_name }}"
-          git push --force origin $DEV_PAGES_BRANCH
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-build
+          path: site/
+
+      - name: Deploy for Cloudflare
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages-dev
+          force_orphan: true
+          commit_message: |
+            Deploy preview from ${{ github.ref_name }}
+            ${{ github.event.head_commit.message }}
