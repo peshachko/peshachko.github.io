@@ -5,7 +5,19 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-at: Антоанета Маринова  
+-   ![Не си сам](../img/poems/20260119_marinela.jpg){ align=right width="50" }
+	:fontawesome-solid-at: Маринела  
+	:fontawesome-solid-calendar-check: 19 Януари 2026  
+	:fontawesome-regular-bookmark: **Не си сам**
+
+    ---
+
+	В идея чиста пламва твоята душа  
+	родена в пътя трудно извървян.  
+	В началото си сам и неразбран [:fontawesome-solid-angles-right:{.custom-icon-size}](20260119_marinela.md)
+
+-   ![Пешачко](../img/peshachko.png){ align=right width="50" }
+	:fontawesome-solid-at: Антоанета Маринова  
 	:fontawesome-solid-calendar-check: 5 Януари 2026  
 	:fontawesome-regular-bookmark: **Пешачко**
 
