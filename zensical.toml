@@ -6,7 +6,7 @@ site_url = "https://peshachko.bg/"
 repo_url = "https://github.com/peshachko/peshachko.github.io"
 edit_uri = "edit/main/docs/"
 copyright = """&copy; 2025 НПО Пешачко (contact@peshachko.bg)"""
-extra_css = ["stylesheets/extra.css", "stylesheets/glightbox.min.css"]
+extra_css = ["stylesheets/extra.css", "stylesheets/glightbox.min.css", "stylesheets/leaflet.css"]
 
 nav = [
   {"Начало" = [
@@ -123,6 +123,9 @@ link = "mailto:contact@peshachko.bg"
 
 [[project.extra_javascript]]
 path = "javascripts/glightbox.min.js"
+
+[[project.extra_javascript]]
+path = "javascripts/leaflet.js"
 
 [[project.extra_javascript]]
 path = "javascripts/glightbox_load.js"
