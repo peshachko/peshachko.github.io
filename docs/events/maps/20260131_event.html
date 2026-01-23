@@ -1,8 +1,8 @@
-<div id="map" style="height: 500px; width: 100%;"></div>
+<div id="map-31.01.2026" style="height: 500px; width: 100%;"></div>
 
 <script>
   function createMap() {
-	  const map = L.map('map').setView([42.680962, 23.336184], 15);
+	  const map = L.map('map-31.01.2026').setView([42.680962, 23.336184], 15);
 	  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		  maxZoom: 21,
 	  }).addTo(map);
@@ -205,16 +205,15 @@
 		  weight: 3,
 	  }).addTo(map);
 
-	  const start = LatLngLocations.at(0);
-
-	  L.circleMarker(start, {
+	  const start_end = LatLngLocations.at(0);
+	  L.circleMarker(start_end, {
 		  radius: 10,
 		  color: 'red',
 		  fillColor: 'green',
 		  fillOpacity: 1
       })
 		  .addTo(map)
-		  .bindPopup(`<div style="text-align:center"> Начало/Край<br>${start.toString()}</div>`)
+		  .bindPopup(`<div style="text-align:center"> Начало/Край<br>${start_end.toString()}</div>`)
 		  .openPopup();
   }
 
