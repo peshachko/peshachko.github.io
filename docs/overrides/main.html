@@ -11,3 +11,21 @@
   </div>
 </div>
 {% endblock %}
+
+{% block extrahead %}
+  {% if page and page.meta and page.meta.maps and config.extra.maps_css %}
+	{% for css in config.extra.maps_css %}
+      <link rel="stylesheet" href="{{ css.path | url }}">
+    {% endfor %}
+  {% endif %}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {% if page and page.meta and page.meta.maps and config.extra.maps_javascript %}
+	{% for script in config.extra.maps_javascript %}
+      {{ script | script_tag }}
+    {% endfor %}
+  {% endif %}
+{% endblock %}
