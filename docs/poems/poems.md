@@ -1,3 +1,8 @@
+---
+hide:
+    - toc
+---
+
 # Стихове по пътеките
 
 Стихове и кратки разкази родени в движение. Включи се и ти, изпрати ни нещо което те
@@ -5,7 +10,7 @@
 
 <div class="grid cards" markdown>
 
--   ![Не си сам](../img/poems/20260119_marinela.jpg){ align=right width="50" }
+-   [![Не си сам](../img/poems/20260119_marinela.jpg){ align=right width="50" }](20260119_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 19 Януари 2026  
 	:fontawesome-regular-bookmark: **Не си сам**
@@ -16,7 +21,7 @@
 	родена в пътя трудно извървян.  
 	В началото си сам и неразбран [:fontawesome-solid-angles-right:{.custom-icon-size}](20260119_marinela.md)
 
--   ![Пешачко](../img/peshachko.png){ align=right width="50" }
+-   [![Пешачко](../img/peshachko.png){ align=right width="50" }](20260105_antoaneta_marinova.md)
 	:fontawesome-solid-at: Антоанета Маринова  
 	:fontawesome-solid-calendar-check: 5 Януари 2026  
 	:fontawesome-regular-bookmark: **Пешачко**
