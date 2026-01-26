@@ -141,8 +141,15 @@ type = "module"
 [[project.extra.maps_javascript]]
 path = "javascripts/leaflet.js"
 
+[[project.extra.maps_javascript]]
+path = "javascripts/maps_show_routs.js"
+type = "module"
+
 [[project.extra.maps_css]]
 path = "stylesheets/leaflet.css"
+
+[[project.extra.maps_css]]
+path = "stylesheets/maps.css"
 
 # -----------------------------------------------------
 # default extensions
