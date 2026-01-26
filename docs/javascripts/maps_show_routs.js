@@ -1,4 +1,4 @@
-// coordinates are in lat-lng (required by leaflet)
+// coordinates are assumed to be in lat-lng (required by leaflet)
 function createMap(id) {
 	fetch(`/events/routes/${id}.json`)
 		.then(response => response.json())
@@ -50,8 +50,10 @@ function createMap(id) {
 		})
 }
 
+console.log("Here0");
+
 document$.subscribe(() => {
-	document.querySelectorAll("div.leaflet-map").forEach(el => {
+	document.querySelectorAll(".peshachko-map").forEach(el => {
 		createMap(el.id);
 	});
 });
