@@ -14,7 +14,7 @@ def parse_args():
 
 def haversine(lat1, lon1, lat2, lon2):
     """Calculate the great-circle distance between two points on Earth (meters)."""
-    R = 6371000  # Earth radius in meters
+    earth_radius_meters = 6371000
 
     phi1 = math.radians(lat1)
     phi2 = math.radians(lat2)
@@ -28,14 +28,11 @@ def haversine(lat1, lon1, lat2, lon2):
 
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
-    return R * c
+    return earth_radius_meters * c
 
 
-def route_length(coords):
-    return sum(
-        haversine(lat1, lon1, lat2, lon2)
-        for (lat1, lon1), (lat2, lon2) in zip(coords, coords[1:])
-    )
+def route_length(coordinates):
+    return sum(haversine(*c1, *c2) for c1, c2 in zip(coordinates, coordinates[1:]))
 
 
 def main():
@@ -44,7 +41,6 @@ def main():
         data = json.load(f)
 
     length_km = route_length(data["coordinates"]) / 1000
-
     print(f"Route length: {length_km:.3f} km")
 
 
