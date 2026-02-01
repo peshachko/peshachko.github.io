@@ -33,25 +33,28 @@ nav = [
   {"Стихове" = [
     "poems/poems.md",
     {"2026" = [
+	  {"&nbsp; Февруари" = [
+	    {"(1) Маринела" = "poems/20260201_marinela.md"},
+	  ]},
 	  {"&nbsp; Януари" = [
-	    {"Маринела (19)" = "poems/20260119_marinela.md"},
-	    {"Антоанета Маринова (5)" = "poems/20260105_antoaneta_marinova.md"},
+	    {"(19) Маринела" = "poems/20260119_marinela.md"},
+	    {"(5) Антоанета Маринова" = "poems/20260105_antoaneta_marinova.md"},
 	  ]},
     ]},
 	{"2025" = [
 	  {"&nbsp; Декември" = [
-	    {"Таня ван Дайк (25)" = "poems/20251225_tanya_vandijk.md"},
-	    {"Маринела (24)" = "poems/20251224_marinela.md"},
+	    {"(25) Таня ван Дайк" = "poems/20251225_tanya_vandijk.md"},
+	    {"(24) Маринела" = "poems/20251224_marinela.md"},
 	  ]},
 	  {"&nbsp; Септември" = [
-	    {"Таня ван Дайк (16)<sup>a</sup>" = "poems/20250916a_tanya_vandijk.md"},
-	    {"Таня ван Дайк (16)<sup>b</sup>" = "poems/20250916b_tanya_vandijk.md"},
-		{"Таня ван Дайк (12)" = "poems/20250912_tanya_vandijk.md"},
-		{"Таня ван Дайк (10)" = "poems/20250910_tanya_vandijk.md"},
-	    {"Таня ван Дайк (5)" = "poems/20250905_tanya_vandijk.md"},
+	    {"(16)<sup>a</sup> Таня ван Дайк" = "poems/20250916a_tanya_vandijk.md"},
+	    {"(16)<sup>b</sup> Таня ван Дайк" = "poems/20250916b_tanya_vandijk.md"},
+		{"(12) Таня ван Дайк" = "poems/20250912_tanya_vandijk.md"},
+		{"(10) Таня ван Дайк" = "poems/20250910_tanya_vandijk.md"},
+	    {"(5) Таня ван Дайк" = "poems/20250905_tanya_vandijk.md"},
 	  ]},
 	  {"&nbsp; Август" = [
-	    {"Маринела (24)" = "poems/20250824_marinela.md"},
+	    {"(24) Маринела" = "poems/20250824_marinela.md"},
 	  ]},
     ]},
   ]},
