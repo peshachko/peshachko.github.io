@@ -10,6 +10,17 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   [![По пътека кална](../img/poems/20260201_marinela.jpg){ align=right width="50" }](20260201_marinela.md)
+	:fontawesome-solid-at: Маринела  
+	:fontawesome-solid-calendar-check: 01 Февруари 2026  
+	:fontawesome-regular-bookmark: **По пътека кална**
+
+    ---
+
+	По пътека кална с теб ще мина  
+	зная неотъпкана е тя!  
+	Но листата паднали помагат, [:fontawesome-solid-angles-right:{.custom-icon-size}](20260201_marinela.md)
+
 -   [![Не си сам](../img/poems/20260119_marinela.jpg){ align=right width="50" }](20260119_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 19 Януари 2026  
