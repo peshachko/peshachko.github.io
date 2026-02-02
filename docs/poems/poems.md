@@ -10,7 +10,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   [![По пътека кална](../img/poems/20260201_marinela.jpg){ align=right width="50" }](20260201_marinela.md)
+-   [![По пътека кална](../img/events/20260131-sofia/20260131-sofia_1.jpeg){ align=right width="50" }](20260201_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 01 Февруари 2026  
 	:fontawesome-regular-bookmark: **По пътека кална**
