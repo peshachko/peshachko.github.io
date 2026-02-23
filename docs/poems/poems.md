@@ -10,6 +10,17 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   [![По пътека кална](../img/poems/20260223_marinela.jpeg){ align=right width="50" }](20260223_marinela.md)
+	:fontawesome-solid-at: Маринела  
+	:fontawesome-solid-calendar-check: 23 Февруари 2026  
+	:fontawesome-regular-bookmark: **Град на мечтите**
+
+    ---
+
+	Със крачки плахи тръгнах аз,  
+		макар и смела да изглеждах.  
+	Ръка подавам, търся вас, [:fontawesome-solid-angles-right:{.custom-icon-size}](20260223_marinela.md)
+
 -   [![По пътека кална](../img/poems/20260221_marinela.jpeg){ align=right width="50" }](20260221_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 21 Февруари 2026  
