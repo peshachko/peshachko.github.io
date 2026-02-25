@@ -14,7 +14,6 @@ nav = [
 	{"🧒 Към децата" = "poems/20260105_antoaneta_marinova"},
   ]},
   {"НПО" = "ngo.md"},
-  {"Нашият град" = "environment.md"},
   {"Събития" = [
     {"Събития" = "events/events.md"},
     {"Предстоящи" = [
