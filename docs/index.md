@@ -12,12 +12,17 @@ icon: lucide/footprints
 <div class="grid cards" markdown>
 - :lucide-group: __[НПО]__ – Пешачко ще бъде сдружение в обществена полза. В момента
   подаваме документи за регистрация на неправителствена организация.
-- :fontawesome-solid-leaf: __[Нашият град]__ –
-  Инициатива за чист въздух и здраве.
 - :lucide-users: __[Събития]__ – Всяко събите е възможност за промяна &mdash; а колко ни
   е необходима тя!
 - :lucide-house: __[Стихове по пътеките]__ – Нашите членове споделят своите поетични
   мигове по пътеките. Ако искаш, включи се и ти!
+- :girl::boy: __[Към децата]__ –
+  Здравейте!  
+  Пешачко аз се казвам  
+  и мисията ми е да опазвам -  
+  природата и въздуха най-вече  
+  в желанието си да виждам всичко надалече!
+  [:fontawesome-solid-angles-right:{.custom-icon-size}](poems/20260105_antoaneta_marinova.md)
 </div>
 
 <section style="text-align: center;">
@@ -57,3 +62,4 @@ flowchart TB
 [Нашият град]: environment.md
 [Събития]: events/events.md
 [Стихове по пътеките]: poems/poems.md
+[Към децата]: poems/20260105_antoaneta_marinova
