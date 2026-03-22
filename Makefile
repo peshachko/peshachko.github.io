@@ -9,12 +9,15 @@ serve: build
 	@$(RUN) $(ZENSICAL) serve
 
 ## Build site
-build: clean
+build: clean members
 	@$(RUN) $(ZENSICAL) build --clean
 
 ## Clean site
 clean:
-	@rm -rf site
+	@rm -rf site docs/members.md
+
+members: ## Generate members table from JSON
+	@$(RUN) utils/members_table.py docs/data/members.json docs/members.md
 
 ## Resize images
 resize:

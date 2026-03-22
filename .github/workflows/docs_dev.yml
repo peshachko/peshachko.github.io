@@ -17,6 +17,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install zensical
+      - run: python utils/members_table.py docs/data/members.json docs/members.md
       - run: zensical build --clean
       - uses: actions/upload-artifact@v4
         with:
