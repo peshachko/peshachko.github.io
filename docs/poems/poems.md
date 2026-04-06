@@ -10,6 +10,17 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   [![Новият герой](../img/poems/20260405_marinela.jpeg){ align=right width="50" }](20260405_marinela.md)
+	:fontawesome-solid-at: Маринела  
+	:fontawesome-solid-calendar-check: 5 Април 2026  
+	:fontawesome-regular-bookmark: **Цветя от Пролетта**
+
+    ---
+
+	Напъпили във пролетния дъжд,  
+	надничат цветовете на Цветята.  
+	От своята обвивка изведнъж, [:fontawesome-solid-angles-right:{.custom-icon-size}](20260405_marinela.md)
+
 -   [![Новият герой](../img/poems/20260311_marinela.jpeg){ align=right width="50" }](20260311_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 11 Март 2026  
