@@ -35,6 +35,7 @@ nav = [
     "poems/poems.md",
     {"2026" = [
 	  {"&nbsp; Април" = [
+	    {"(8) Маринела" = "poems/20260408_marinela.md"},
 	    {"(5) Маринела" = "poems/20260405_marinela.md"},
 	  ]},
 	  {"&nbsp; Март" = [

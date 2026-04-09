@@ -10,6 +10,17 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   [![Новият герой](../img/poems/20260408_marinela.jpeg){ align=right width="50" }](20260408_marinela.md)
+	:fontawesome-solid-at: Маринела  
+	:fontawesome-solid-calendar-check: 8 Април 2026  
+	:fontawesome-regular-bookmark: **В душата ти**
+
+    ---
+
+	Ще надникна в душата ти малко,  
+	ти открехнал си тази врата.  
+	Плахо стъпвам и някак потайно, [:fontawesome-solid-angles-right:{.custom-icon-size}](20260408_marinela.md)
+
 -   [![Новият герой](../img/poems/20260405_marinela.jpeg){ align=right width="50" }](20260405_marinela.md)
 	:fontawesome-solid-at: Маринела  
 	:fontawesome-solid-calendar-check: 5 Април 2026  
