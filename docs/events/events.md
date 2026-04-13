@@ -7,9 +7,8 @@ description: Планирани събития на НПО Пешачко.
 ## :lucide-footprints: Опознай своя град
 
 Това е нашата инициатива за разходки заедно &mdash; приятна компания, движение,
-разговори и добро настроение. Ще обявяваме разходките тук, както и в
-[:fontawesome-brands-meetup: Meetup](https://www.meetup.com/опознай-своя-град),
-[:fontawesome-brands-facebook: Фейсбук](https://www.facebook.com/share/1ap91aSfj3),
+разговори и добро настроение. Ще обявяваме разходките тук, както и във
+[:fontawesome-brands-facebook: Фейсбук](https://www.facebook.com/share/1ap91aSfj3) и
 [:fontawesome-brands-instagram: Инстаграм](https://www.instagram.com/peshachko).
 
 Елате да се разходим заедно, да се запознаем &mdash; кой знае какви идеи ще се родят!
